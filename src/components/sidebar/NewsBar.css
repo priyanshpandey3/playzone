@@ -1,0 +1,54 @@
+.newsbar {
+    flex: 1;
+    height: calc(100vh - 50px);
+    width: 200px;
+    background-color: 	whitesmoke;
+    position:sticky ;
+    top: 50px;
+    border-style: double;
+    text-align: center;
+
+    
+    
+
+  }
+  
+  .newsbarWrapper {
+    padding: 80px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .newsbarMenu {
+    margin-bottom: 10px;
+  }
+  
+  .newsbarTitle {
+    font-size: 14px;
+    color: red;
+  }
+  
+  .newsbarList {
+    list-style: none;
+    padding: 5px;
+  }
+  
+  .newsbarListItem {
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .newsbarListItem.active,
+  .newsbarListItem:hover {
+    background-color: #55616d;
+  }
+  
+  .newsbarIcon{
+      margin-right: 5px;
+      font-size: 20px !important;
+  }
+  
